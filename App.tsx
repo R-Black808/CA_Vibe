@@ -40,7 +40,7 @@ function App() {
     setIsGenerating(true);
     try {
       const openai = new OpenAI({
-        apiKey: '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',
+        apiKey: '',
         baseURL: 'https://api.openai.com/v1',
         dangerouslyAllowBrowser: true
       });
